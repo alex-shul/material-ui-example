@@ -1,0 +1,1 @@
+export const jssServerSideTagId = 'jss-server-side';

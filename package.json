@@ -1,0 +1,57 @@
+{
+  "name": "material-ui-example",
+  "version": "1.0.0",
+  "description": "Example of material-ui usage",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npm-run-all -p build serve",
+    "build": "webpack -w",
+    "serve": "nodemon --ignore ./build --exec ts-node -- ./src/server.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-shul/material-ui-example.git"
+  },
+  "author": "Alex Shul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-shul/material-ui-example/issues"
+  },
+  "homepage": "https://github.com/alex-shul/material-ui-example#readme",
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/node": "7.14.9",
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/plugin-transform-react-jsx": "7.14.9",
+    "@babel/plugin-transform-runtime": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
+    "@babel/preset-typescript": "7.15.0",
+    "@types/babel-core": "6.25.6",
+    "@types/connect-livereload": "0.5.32",
+    "@types/express": "4.17.13",
+    "@types/livereload": "0.9.1",
+    "@types/node": "14.14.30",
+    "@types/react": "17.0.19",
+    "@types/react-dom": "17.0.9",
+    "@types/webpack": "5.28.0",
+    "babel-loader": "8.2.2",
+    "babel-plugin-import": "1.13.3",
+    "cross-env": "7.0.3",
+    "nodemon": "2.0.12",
+    "npm-run-all": "4.1.5",
+    "typescript": "4.1.5",
+    "webpack": "5.51.1",
+    "webpack-cli": "4.8.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.12.3",
+    "connect-livereload": "0.6.1",
+    "express": "4.17.1",
+    "livereload": "0.9.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "ts-node": "10.2.1"
+  }
+}
